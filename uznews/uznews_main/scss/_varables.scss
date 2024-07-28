@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$bg-color:#2C3752;
+
+@mixin btn {
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #A2BCDE ;
+  border-radius: 6px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+@mixin row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
